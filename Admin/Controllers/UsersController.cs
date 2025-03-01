@@ -2,6 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Admin.Data;
 using Admin.Models;
+using Admin.Helpers;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Admin.Controllers
 {
@@ -38,13 +42,12 @@ namespace Admin.Controllers
         }
 
         // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, [FromBody] User user)
         {
             if (id != user.Id)
             {
-                return BadRequest();
+                return BadRequest("User ID mismatch.");
             }
 
             _context.Entry(user).State = EntityState.Modified;
@@ -69,21 +72,29 @@ namespace Admin.Controllers
         }
 
         // POST: api/Users
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<User>> PostUser([FromBody] User user)
         {
-            if (user == null || string.IsNullOrEmpty(user.Name) || string.IsNullOrEmpty(user.Email))
-            {
-                return BadRequest("User data is invalid.");
-            }
+            if (user == null || string.IsNullOrEmpty(user.Name) || string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
+            
+                return BadRequest("Invalid user data.");
+            //check username
+            if (await CheckUserNameExistAsync(user.Name))
+                return BadRequest(new { Message = "L'utilisateur deja Exist!" });
+            //check email 
+            if (await CheckEmailExistAsync(user.Email))
+                return BadRequest(new { Message = "L'email deja Exist!" });
+
+
+            // Hachage du mot de passe
+            user.Password = PasswordHasher.HashPassword(user.Password);
+            user.Token = "";
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+            return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
         }
-
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
@@ -105,5 +116,14 @@ namespace Admin.Controllers
         {
             return _context.Users.Any(e => e.Id == id);
         }
+        private async Task<bool>CheckUserNameExistAsync(string name)
+        {
+            return await _context.Users.AnyAsync(x=> x.Name == name);
+        }
+        private async Task<bool> CheckEmailExistAsync(string email)
+        {
+            return await _context.Users.AnyAsync(x => x.Email == email);
+        }
+
     }
 }

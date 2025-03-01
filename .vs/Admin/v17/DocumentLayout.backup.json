@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|c:\\users\\kimoa\\documents\\project\\pfe\\admin\\admin\\migrations\\20250228180249_tokenadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{425A881F-08A5-4EB0-AA32-14BD35395F55}|Admin\\Admin.csproj|solutionrelative:admin\\migrations\\20250228180249_tokenadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +42,96 @@
       "DocumentGroups": [
         {
           "DockedHeight": 383,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "20250228180249_TokenAdd.cs",
+              "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Migrations\\20250228180249_TokenAdd.cs",
+              "RelativeDocumentMoniker": "Admin\\Migrations\\20250228180249_TokenAdd.cs",
+              "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Migrations\\20250228180249_TokenAdd.cs",
+              "RelativeToolTip": "Admin\\Migrations\\20250228180249_TokenAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T18:02:49.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Admin\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "Admin\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:09:18.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\appsettings.json",
+              "RelativeDocumentMoniker": "Admin\\appsettings.json",
+              "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\appsettings.json",
+              "RelativeToolTip": "Admin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-27T18:43:20.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Program.cs",
+              "RelativeDocumentMoniker": "Admin\\Program.cs",
+              "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Program.cs",
+              "RelativeToolTip": "Admin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T18:39:46.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Models\\User.cs",
               "RelativeDocumentMoniker": "Admin\\Models\\User.cs",
               "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Models\\User.cs",
               "RelativeToolTip": "Admin\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:21:54.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:21:54.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Admin\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:06:24.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:06:24.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Admin\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Admin\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAA9wEwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T16:04:27.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserContext.cs",
               "DocumentMoniker": "C:\\Users\\kimoa\\Documents\\project\\PFE\\Admin\\Admin\\Data\\UserContext.cs",
               "RelativeDocumentMoniker": "Admin\\Data\\UserContext.cs",
@@ -77,8 +139,7 @@
               "RelativeToolTip": "Admin\\Data\\UserContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T16:01:41.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T16:01:41.462Z"
             }
           ]
         },
