@@ -6,6 +6,7 @@ using Admin.Helpers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace Admin.Controllers
 {
@@ -84,8 +85,12 @@ namespace Admin.Controllers
             //check email 
             if (await CheckEmailExistAsync(user.Email))
                 return BadRequest(new { Message = "L'email deja Exist!" });
-
-
+            //check password strength
+            if (user.Password.Length < 6)
+            {
+                return BadRequest(new { Message = "Le mot de passe doit contenir au moins 6 caractères." });
+            }
+            
             // Hachage du mot de passe
             user.Password = PasswordHasher.HashPassword(user.Password);
             user.Token = "";

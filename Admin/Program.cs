@@ -1,5 +1,9 @@
 using Admin.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,25 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddDbContext<UserContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DevConnection")));
+
+builder.Services.AddAuthentication(x =>
+{
+
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SuperSecretKeyForJWTGeneration2025.....")),
+        ValidateAudience = false,
+        ValidateIssuer=false
+    };
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,7 +50,7 @@ app.UseCors(options =>
             .AllowAnyOrigin()
             );
 app.UseAuthorization();
-
+app.UseAuthentication();
 app.MapControllers();
 
 app.Run();
