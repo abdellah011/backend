@@ -254,14 +254,6 @@
           "role": {
             "type": "string",
             "nullable": true
-          },
-          "refreshToken": {
-            "type": "string",
-            "nullable": true
-          },
-          "refreshTokenExpiryTime": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
