@@ -32,7 +32,8 @@ builder.Services.AddAuthentication(x =>
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("SuperSecretKeyForJWTGeneration2025.....")),
         ValidateAudience = false,
-        ValidateIssuer=false
+        ValidateIssuer=false,
+        ClockSkew=TimeSpan.Zero
     };
 });
 var app = builder.Build();
@@ -49,8 +50,9 @@ app.UseCors(options =>
             .AllowAnyHeader()
             .AllowAnyOrigin()
             );
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
