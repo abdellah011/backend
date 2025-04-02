@@ -16,6 +16,94 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DashboardController",
+    "Method": "GetUsersAdminsCount",
+    "RelativePath": "api/Dashboard/count-users-admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DashboardController",
+    "Method": "GetUserRoles",
+    "RelativePath": "api/Dashboard/user-roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DashboardController",
+    "Method": "GetUserStats",
+    "RelativePath": "api/Dashboard/user-stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DashboardController",
+    "Method": "GetUserStatsHistory",
+    "RelativePath": "api/Dashboard/user-stats-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FastApiController",
+    "Method": "UploadImage",
+    "RelativePath": "api/FastApi/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin.Controllers.UploadFileController",
+    "Method": "UploadFile",
+    "RelativePath": "api/UploadFile/upload-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Admin.Controllers.UploadFileController",
+    "Method": "ViewFile",
+    "RelativePath": "api/UploadFile/view-file/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Admin.Controllers.UsersController",
     "Method": "GetUsers",
     "RelativePath": "api/Users",

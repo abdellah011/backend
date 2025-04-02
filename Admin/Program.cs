@@ -8,6 +8,12 @@ using System.Text.Unicode;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// Ajout du service FastApiService
+builder.Services.AddHttpClient<FastApiService>(client =>
+{
+    client.Timeout = TimeSpan.FromMinutes(5); // Désactiver le timeout pour tester
+});
+builder.Services.AddScoped<FastApiService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -37,6 +43,7 @@ builder.Services.AddAuthentication(x =>
     };
 });
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

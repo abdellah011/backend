@@ -583,3 +583,10 @@ C:\Users\kimoa\Documents\project\PFE\Admin\Admin\obj\Debug\net8.0\Admin.pdb
 C:\Users\kimoa\Documents\project\PFE\Admin\Admin\obj\Debug\net8.0\Admin.genruntimeconfig.cache
 C:\Users\kimoa\Documents\project\PFE\Admin\Admin\obj\Debug\net8.0\ref\Admin.dll
 C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\kimoa\Documents\project\PFE\Admin\Admin\bin\Debug\net8.0\Grpc.Net.Common.dll
